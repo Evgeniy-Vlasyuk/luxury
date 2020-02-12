@@ -51,7 +51,7 @@ ul, li {
 }
 
 .book-btn span {
-	background: url('../img/order.png');
+	background: url('../img/order-min.png');
 	display: block;
 	width: 21px;
 	height: 17px;
@@ -59,7 +59,7 @@ ul, li {
 }
 
 .offer {
-	background: url('../img/first-bg.jpg') no-repeat center top;
+	background: url('../img/first-bg-min.jpg') no-repeat center top;
 	margin-top: 19px;
 }
 
@@ -174,7 +174,7 @@ ul, li {
 /* fourth screen */
 
 .special {
-	background: url('../img/third-bg.jpg') no-repeat center top;
+	background: url('../img/third-bg-min.jpg') no-repeat center top;
 }
 
 .special-title {
@@ -186,7 +186,8 @@ ul, li {
 
 .food-card {
 	text-align: center;
-	box-shadow: 0 14px 20px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 14px 20px rgba(0,0,0,0.13);
+	        box-shadow: 0 14px 20px rgba(0,0,0,0.13);
 	margin-bottom: 50px;
 }
 
@@ -260,16 +261,16 @@ ul, li {
 }
 
 .social__icon_fb a {
-	background: #3b5998 url('../img/fb.png') no-repeat center center;
+	background: #3b5998 url('../img/fb-min.png') no-repeat center center;
 
 }
 
 .social__icon_tw a {
-	background: #55acee url('../img/tw.png') no-repeat center center;
+	background: #55acee url('../img/tw-min.png') no-repeat center center;
 }
 
 .social__icon_g a {
-	background: #dd4b39 url('../img/g.png') no-repeat center center;
+	background: #dd4b39 url('../img/g-min.png') no-repeat center center;
 }
 
 .line {
@@ -314,7 +315,8 @@ ul, li {
 	top: 50%;
 	position: fixed;
 	border-radius: 10px;
-	box-shadow: 0 0 50px black;
+	-webkit-box-shadow: 0 0 50px black;
+	        box-shadow: 0 0 50px black;
   background: #fff;
   text-align: center;
   padding: 78px 0;
@@ -331,7 +333,7 @@ ul, li {
 
 @media (min-width: 992px) and (max-width: 1200px)  {
 	.menu__item {
-    	margin-right: 18px;
+    margin-right: 18px;
 	}
 
 	.book-btn {
@@ -365,17 +367,18 @@ ul, li {
 	}
 
 	.title {
-    	padding: 199px 0;
+    padding: 199px 0;
 	}
 }
 
 @media (max-width: 576px) {
 	.menu {
-		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 		text-align: center;
 	}
 	
@@ -385,11 +388,12 @@ ul, li {
 	}
 	
 	.phone {
-		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 		text-align: center;
 	}
 
@@ -403,7 +407,7 @@ ul, li {
 	}
 
 	.title {
-    	padding: 136px 0;
+    padding: 136px 0;
 	}
 
 	.food-card {
@@ -411,11 +415,12 @@ ul, li {
 	}
 
 	.food-card__delivery {
-		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
 		text-align: center;
 	}
 
